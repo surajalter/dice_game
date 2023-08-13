@@ -1,0 +1,56 @@
+body {
+	font-family: "Indie Flower";
+	background-color: #393e46;
+	text-align: center;
+	color: #4ecca3;
+}
+
+.heading {
+	font-size: 7rem;
+	font-weight: 900;
+	text-shadow: 4px 4px #232931;
+	font-family: "Lobster", cursive;
+	margin: 4% 20% 6%;
+}
+
+.dice {
+	margin: auto;
+	width: 150px;
+}
+
+.col {
+	display: inline-block;
+	margin: auto 5%;
+}
+
+input {
+	margin-top: 8%;
+	background-color: aquamarine;
+	border: circle black;
+	border-radius: 10%;
+	border-style: groove;
+	font-size: 2rem;
+	color: #000000;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-top: 10%;
+}
+
+@media (max-width: 1000px) {
+	.dice {
+		width: 30%;
+	}
+
+	.heading {
+		font-size: 4rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.heading {
+		font-size: 3rem;
+	}
+}
